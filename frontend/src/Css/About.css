@@ -1,0 +1,15 @@
+.custom-height{
+    height: 295px;
+}
+
+.btn-color-custom{
+    background-color: #001e2b;
+    color: white;
+    font-weight: bold;
+}
+
+.custom-img{
+    height: 125px;
+    width: 137px;
+    margin: 15px 109px;
+}

@@ -1,0 +1,17 @@
+.custom-btn{
+    height: 40px;
+    width: 120px;
+    padding: 5px;
+    margin-top: 15px;
+}
+#buypage-responsive-height{
+    height: 576px;
+}  
+@media screen and (max-width: 425px){
+    #buypage-responsive-height {
+        height: 360px;
+    }
+    #buypage-responsive-height img{
+        height: 100%;
+    }
+}

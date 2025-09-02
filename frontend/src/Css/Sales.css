@@ -1,0 +1,8 @@
+/* responsive sales  */
+@media  (max-width:530px) {
+    .sales-height{
+        height: 150px;
+    }
+  }
+  
+ 

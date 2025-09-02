@@ -1,0 +1,17 @@
+.custom-input{
+    text-align: center;
+    height: 45px;
+    border-radius: 6px;
+    margin: 3px;
+    padding: 3px;
+    width: 400px;
+}
+
+.custom-textarea{
+    border-radius: 10px;
+    text-align: center;
+    height: 150px;
+    width: 430px;
+}
+
+

@@ -1,0 +1,50 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}  
+
+
+
+#list-style-none li{
+  list-style: none;
+}
+
+
+.personal-details input{
+  padding: 10px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.personal-details h5{ 
+  font-size: 20px;
+}
+
+.for-laptop-img{
+  height: "50px";
+  width: "50px";
+  margin-right: "20px";
+  margin-top: "13px"
+}
+
+#custom-address{
+  width: 70%;
+}
+
+@media screen and (max-width: 425px) {
+  #custom-para{
+    font-size: 11px;
+  }
+
+  #for-mobile-image{
+    height: 10px;
+    width: 20px;
+  }
+  #custom-address{
+    font-size: 8px;
+    width: 240px;
+  }
+} 

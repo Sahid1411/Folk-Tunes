@@ -1,0 +1,36 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); 
+    /* border-radius: 50%;  */
+    width: 50px; 
+    height: 50px;
+}
+
+.img-height{
+   height:"400px";
+   width:"75%";
+}
+
+@media  (max-width:530px) {
+    .img-height{
+        height:"100px";
+        width:"90%";
+     }
+
+    .responsive-para{
+        font-size: 10px;
+     }
+  }
+  
+  /* @media  (max-width:530px) and (min-width:760px){
+    .img-height{
+        height:"100px";
+        width:"90%";
+     }
+  } */
+
+@media screen and (max-width: 425px) {
+   #custom-heading{
+      font-size: 25px;
+   }
+}  
