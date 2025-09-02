@@ -1,0 +1,69 @@
+#custom-list li a {
+  /* color: black; */
+  text-decoration: none;
+}
+
+#custom-list li {
+  list-style: none;
+}
+
+.userTable {
+  width: 100%;
+  margin: 50px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.65);
+}
+.userTable table {
+  width: 100%;
+  margin-top: 30px;
+}
+.userTable table thead th {
+  background-color: darkcyan;
+  color: white;
+}
+
+.userTable table tbody td {
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+.actionButtons button {
+  margin: 0 10px;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+#list-style-none li {
+  list-style: none;
+}
+
+.personal-details input {
+  padding: 10px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.personal-details h5 {
+  font-size: 20px;
+}
+
+#list-style-none li {
+  list-style: none;
+}
+
+#list-style-none a {
+  text-decoration: none;
+  color: rgb(123, 123, 223);
+}
+
+#list-style-none a:hover {
+  color: blue;
+}

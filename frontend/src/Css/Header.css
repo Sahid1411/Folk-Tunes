@@ -1,0 +1,38 @@
+
+
+/* Hide the dropdown menu by default */
+.dropdown-menu {
+  display: none;
+  opacity: 0;
+  transform: translateY(10px); /* Optional animation */
+  transition: all 0.3s ease-in-out;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+  opacity: 1;
+  transform: translateY(0); /* Optional animation */
+}
+
+/* Ensure dropdown is properly positioned */
+.dropdown-menu {
+  position: absolute;
+  top: 100%; /* Below the button */
+  left: 0;
+  z-index: 1000;
+}
+
+
+/* responsive header  */
+@media  (max-width:530px) {
+  .responsive-btn{
+    margin: 12px;
+  }
+}
+
+@media  (max-width:760px) and (min-width:992px){
+  #responsive-name{
+    font-size: 15px;
+  }
+}

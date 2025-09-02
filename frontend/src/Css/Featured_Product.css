@@ -1,0 +1,39 @@
+/* .customHeight{
+    height: 815px;
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.tribe-image{
+    height: 280px;
+}
+
+.details p{
+    padding: 14px 14px 0px 14px;
+}
+
+.btn-buy{
+    width: 80px;
+    margin: 0px 14px 14px 0px;
+    background-color: #0d6efd;
+    color: white;
+}
+
+.btn-buy:hover{
+    background-color: #11356b;
+}
+
+h4{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 425px) {
+    #hide-category{
+        display: none;
+    }
+}

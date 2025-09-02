@@ -1,0 +1,23 @@
+/* Ensure the dropdown menu is hidden by default */
+.nav-item .dropdown-menu {
+    display: none;
+    opacity: 0;
+    transform: translateY(10px); /* Optional animation effect */
+    transition: all 0.3s ease;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .nav-item:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+    transform: translateY(0); /* Optional animation effect */
+  }
+  
+  /* Ensure the dropdown menu is positioned correctly */
+  .dropdown-menu {
+    position: absolute;
+    top: 100%; /* Below the link */
+    left: 0;
+    z-index: 1000;
+  }
+  

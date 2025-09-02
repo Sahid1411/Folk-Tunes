@@ -1,0 +1,18 @@
+.custom-input{
+    border-radius: 6px;
+    margin: 3px;
+    padding: 3px;
+    background-color: white;
+    color: black;
+    width: 400px;
+}
+#custom-btn{
+    width: 400px;
+    height: 45px;
+    border-radius: 6px;
+    background-color: #0aad0a;
+    border-radius: 6px;
+    margin: 3px;
+    padding: 3px;
+}
+
